@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "simple_cli"
+version = "0.0.1"
+requires-python = ">=3.10"
+authors = [
+  {name = "ELB", email = "elbCHEM@github.com"},
+]
+maintainers = [
+  {name = "ELB", email = "elbCHEM@github.com"},
+]
+description = "Simple CLI is a very simple CLI with few functionalities. "
+readme = "README.md"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
